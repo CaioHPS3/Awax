@@ -661,6 +661,7 @@ span {
 .section-info .section-info-left p {
     color: #555;
 }
+
 .linhahorizontal {
     border: 1px solid #ddd;
 }
@@ -685,8 +686,125 @@ span {
 .default.light.premium .pointer.active {
     background-color: #B28756;
 }
+
 .default.light.premium .button-premium {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+}
+
+.section-facts {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+.section-some-fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.section-some-fact h1 {
+    color: #B28756;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section-some-fact .fact-barra{
+    width: 23px;
+    border: 2px solid #999;
+}
+
+.section-some-fact h3{
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.section-some-fact p {
+    margin-top: 8px;
+    color: #999;
+}
+
+.section-social-media {
+    background-color: #333;
+}
+
+.section-body-social {
+    display: flex;
+    justify-content: center;
+}
+.section-media {
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.section-media p {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-media img {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    
+}
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    
+}
+.section-contact-dados {
+    display: flex;
+    width: inherit;
+    
+    
+}
+#nome, #email {
+    flex: 1;
+    margin: 0px 5px;
+    padding-bottom: 10px;
+    background-color: #e7e7e7;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    outline:0;
+}
+
+.section-contact-subject {
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+    
+}
+
+#subject, #message {
+    margin: 0px 5px;
+    padding-bottom: 10px;
+    background-color: #e7e7e7;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    outline:0;
+}
+
+#subject {
+    margin-top: 20px;
+}
+
+#message{
+    margin-top: 80px;
 }
