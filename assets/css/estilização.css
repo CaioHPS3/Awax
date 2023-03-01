@@ -765,6 +765,8 @@ span {
     align-items: center;
     width: 500px;
     margin: auto;
+    margin-top: 40px;
+    
     
 }
 .section-contact-dados {
@@ -782,6 +784,7 @@ span {
     border-bottom: 1px solid #ccc;
     color: #333;
     outline:0;
+    font-weight: 600;
 }
 
 .section-contact-subject {
@@ -799,6 +802,7 @@ span {
     border-bottom: 1px solid #ccc;
     color: #333;
     outline:0;
+    font-weight: 600;
 }
 
 #subject {
@@ -807,4 +811,103 @@ span {
 
 #message{
     margin-top: 80px;
+}
+
+.section-map{
+    background-image: url('../img/mapa.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0px; 
+}
+.section-map-area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.section-map-info {
+    width: 50%;
+    padding: 30px;
+    background-color: #FFF;
+    color: #000;
+}
+
+.section-map-info-item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    color: #333;
+}
+
+.section-map-info-item-img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    overflow: hidden;
+    
+}
+.section-map-info-item-img img {
+    width: 30px;
+    height: auto;
+    
+}
+
+.section-footer{
+    
+    display: flex;
+}
+
+.section-footer-content {
+    flex: 1;
+    color: #FFF;
+    margin-right: 10px;
+}
+
+.section-footer-content:last-child{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.form-footer input{
+    background-color: #333;
+    border: none;
+    border-bottom:2px solid #999;
+    outline: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.section-footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-media {
+    display: flex;
+}
+.footer-media-img {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer-media-img:hover {
+    background-color: #B28756;
 }
